@@ -1,5 +1,7 @@
 # yii2-docker
 Docker env for yii2 projects
+#Не забудьте добавить в ваши хосты из env в /etc/hosts
+PMA открывается по localhost:портуказаный в env
 ## Установка
 Установите Docker с официального сайта, если он еще не установлен
   https://www.docker.com/get-docker
@@ -141,12 +143,12 @@ phpmyadmin:
 ``` $ docker-compose exec app bash ```
 
 Файлы настроек: 
+
 PHP
 /docker/php
+
 Nginx 
 /docker/nginx
-
-
 
 
 
