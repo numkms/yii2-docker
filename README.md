@@ -6,9 +6,17 @@ PMA открывается по localhost:портуказаный в env
 Установите Docker с официального сайта, если он еще не установлен
   https://www.docker.com/get-docker
   
-Клонируйте этот репозиторий в свой проект и добавьте его в .gitignore
+Клонируйте этот репозиторий в свой проект
 
 ```$ git clone https://github.com/wannabelinus/yii2-docker.git ```
+
+добавьте его в .gitignore
+```
+gitignore file:
+...
+%name_of_cloned_folder%
+...
+```
 
 Отредактируйте docker-compose.yml на ваше усмотрение 
 ```
