@@ -5,6 +5,15 @@ PMA открывается по localhost:портуказаный в env
 ## Установка
 Установите Docker с официального сайта, если он еще не установлен
   https://www.docker.com/get-docker
+Для убунту устатновите docker-compose помимо docker 
+```
+$ sudo curl -L https://github.com/docker/compose/releases/download/1.17.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
+$ sudo chmod +x /usr/local/bin/docker-compose
+
+$ docker-compose --version
+docker-compose version 1.17.0, build 1719ceb
+```
   
 Клонируйте этот репозиторий в свой проект
 
@@ -17,7 +26,6 @@ gitignore file:
 %name_of_cloned_folder%
 ...
 ```
-
 Отредактируйте docker-compose.yml на ваше усмотрение 
 ```
 data:
